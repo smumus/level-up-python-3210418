@@ -1,5 +1,5 @@
 def sort_words(words):
-    return ' '.join(sorted(words.split(), key=str.casefold))
+    return ' '.join(sorted(words.split(), key = str.lower))
 
 
 # commands used in solution video for reference
